@@ -35,3 +35,14 @@ List of open source wind turbine SCADA data sets
 - SCADA log data
 - Met mast data
 - remark: made available upon request - no response to request so far
+
+<ins>Winji Gearbox Failure Detection Challenge</ins>
+- https://www.wedowind.ch/blog/winji-register
+- 
+- remark: need to register for challenge & no other application allowed without consent from WinJi AG
+
+<ins>Kaggle: Wind Turbine Scada Dataset</ins>
+- https://www.kaggle.com/berkerisen/wind-turbine-scada-dataset
+- Wind speed, wind direction, theoretical power curve, power output
+- 1 year (2018)
+- Located in Turkey
