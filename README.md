@@ -3,7 +3,7 @@
 List of open source wind turbine SCADA data sets
 
 Engie "La Haute Borne" wind farm: https://opendata-renewables.engie.com/
-- 4 turbines
+- 4 Turbines
 - ~80 SCADA variables
 - 8 years (2013 to 2020)
 
