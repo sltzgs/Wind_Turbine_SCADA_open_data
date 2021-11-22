@@ -38,7 +38,10 @@ List of open source wind turbine SCADA data sets
 
 <ins>Winji Gearbox Failure Detection Challenge</ins>
 - https://www.wedowind.ch/blog/winji-register
-- 
+- 5 Turbines
+- ~20 SCADA parameters (10min)
+- SCADA error log indicator
+- 3 years
 - remark: need to register for challenge & no other application allowed without consent from WinJi AG
 
 <ins>Kaggle: Wind Turbine Scada Dataset</ins>
