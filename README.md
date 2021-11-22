@@ -1,7 +1,7 @@
 # Wind_Turbine_SCADA_open_data
 
 
-List of open source wind turbine SCADA data sets
+List of open source wind turbine SCADA data sets:
 
 <ins>Engie "La Haute Borne" wind farm</ins>
 - https://opendata-renewables.engie.com/
