@@ -20,15 +20,15 @@ List of open source wind turbine SCADA data sets
 - remark: need to register & log-in to the platform
 
 
-Data Science for Wind Energy data sets
+<ins>Data Science for Wind Energy data sets</ins>
 - https://aml.engr.tamu.edu/book-dswe/dswe-datasets/
 
 
-Power Curve Working Group (PCWG) data sets
+<ins>Power Curve Working Group (PCWG) data sets</ins>
 - https://pcwg.org/
 - 3 data sets focused on power curve modelling
 
-Levenmouth Demonstration Turbine
+<ins>Levenmouth Demonstration Turbine</ins>
 - https://pod.ore.catapult.org.uk/data-collection/ldt-turbine-scada-10min
 - Offshore research turbine
 - Standard (10min) and high-resolution (1Hz) SCADA data
