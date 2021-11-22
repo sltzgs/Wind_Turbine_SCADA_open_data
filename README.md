@@ -9,6 +9,13 @@ Engie "La Haute Borne" wind farm: https://opendata-renewables.engie.com/
 
 EDP open data platform: https://opendata.edp.com/pages/homepage/
 - 5 Turbines
-- SCADA parameters, SCADA logs & major failure annotations
+- SCADA parameters
+- SCADA logs
+- Major failure annotations
 - 2 years
+- remark: need to register & log-in to the platform
 
+Data Science for Wind Energy data sets: https://aml.engr.tamu.edu/book-dswe/dswe-datasets/
+
+Power Curve Working Group (PCWG) data sets: https://pcwg.org/
+- 3 data sets focused on power curve modelling
