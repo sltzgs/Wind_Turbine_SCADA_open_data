@@ -49,3 +49,17 @@ List of open source wind turbine SCADA data sets:
 - Wind speed, wind direction, theoretical power curve, power output
 - 1 year (2018)
 - Located in Turkey
+
+<ins>Kelmarsh wind farm data</ins>
+- https://zenodo.org/record/5841834#.YgpBQ_so-V7
+- 6 Turbines
+- multiple SCADA parameters (10min)
+- 5 years (2016-2021)
+- Located in the UK
+
+<ins>Penmanshiel Wind Farm Data</ins>
+- https://zenodo.org/record/5946808#.YgpAmvso-V5
+- 14 Turbines
+- multiple SCADA parameters (10min)
+- 5 years (2016-2021)
+- Located in the UK
