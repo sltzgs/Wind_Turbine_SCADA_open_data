@@ -63,3 +63,19 @@ List of open source wind turbine SCADA data sets:
 - multiple SCADA parameters (10min)
 - 5 years (2016-2021)
 - Located in the UK
+
+<ins>Ørsted Anholt Offshore Wind Farm</ins>
+- https://orsted.com/en/our-business/offshore-wind/offshore-operational-data
+- info: https://www.thewindpower.net/windfarm_en_10687_anholt.php
+- multiple SCADA parameters (nacelle wind speed, electrical power, rotor speed, yaw position and pitch angle) (10min)
+- 2 years
+- Located in Denmark (Offshore)
+- remark: application required 
+
+<ins>Ørsted Westermost Rough Wind Farm</ins>
+- https://orsted.com/en/our-business/offshore-wind/offshore-operational-data
+- info: https://www.thewindpower.net/windfarm_de_21826_westermost-rough.php
+- multiple SCADA parameters (nacelle wind speed, electrical power, rotor speed, yaw position and pitch angle) (10min)
+- 2 years
+- Located in the UK (Offshore)
+- remark: application required 
