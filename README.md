@@ -34,7 +34,7 @@ List of open source wind turbine SCADA data sets:
 - Standard (10min) and high-resolution (1Hz) SCADA data
 - SCADA log data
 - Met mast data
-- remark: made available upon request - no response to request so far
+- remark: not for free
 
 <ins>Winji Gearbox Failure Detection Challenge</ins>
 - https://www.wedowind.ch/blog/winji-register
