@@ -50,7 +50,7 @@ List of open source wind turbine SCADA data sets:
 - 1 year (2018)
 - Located in Turkey
 
-<ins>Kelmarsh wind farm data</ins>
+<ins>Kelmarsh Wind Farm Data</ins>
 - https://zenodo.org/record/5841834#.YgpBQ_so-V7
 - 6 Turbines
 - multiple SCADA parameters (10min)
