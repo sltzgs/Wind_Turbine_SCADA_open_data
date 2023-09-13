@@ -11,7 +11,7 @@ List of open source wind turbine SCADA data sets:
 
 
 <ins>EDP open data platform</ins>
-- https://opendata.edp.com/pages/homepage/
+- https://www.edp.com/en/innovation/open-data
 - 5 turbines
 - SCADA parameters
 - SCADA logs
