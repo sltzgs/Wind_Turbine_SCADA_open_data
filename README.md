@@ -79,3 +79,11 @@ List of open source wind turbine SCADA data sets:
 - 2 years
 - Located in the UK (Offshore)
 - remark: application required 
+
+<ins>Urban Small Wind Turbine São Paulo</ins>
+- https://zenodo.org/records/7348454
+- info: https://www.mdpi.com/2306-5729/8/3/52
+- around 40 SCADA parameters (1min average)
+- 5 years (2018-2023)
+- Located on Campus of University of São Paulo (Brasil)
+- remark: small, urban turbine
