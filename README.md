@@ -8,6 +8,7 @@ List of open source wind turbine SCADA data sets:
 - 4 turbines
 - ~80 SCADA variables
 - 8 years (2013 to 2020)
+- remark: not available anymore
 
 
 <ins>EDP open data platform</ins>
@@ -79,6 +80,15 @@ List of open source wind turbine SCADA data sets:
 - 2 years
 - Located in the UK (Offshore)
 - remark: application required 
+
+<ins>"CARE to Compare" datasets</ins>
+- https://data.niaid.nih.gov/resources?id=zenodo_10958774
+- info: https://arxiv.org/pdf/2404.10320
+- Windfarm B & C with 9/22 turbines respectively (Windfarm A is from EDP open data, see above)
+- 64 and 238 SCADA parameters respectively (10min)
+- 2 years
+- Located in the Germany (Offshore)
+- remark: data normalized for anonymizaiton
 
 <ins>Urban Small Wind Turbine São Paulo</ins>
 - https://zenodo.org/records/7348454
