@@ -88,8 +88,17 @@ List of open source wind turbine SCADA data sets:
 - 64 and 238 SCADA parameters respectively (10min)
 - 2 years
 - Located in the Germany (Offshore)
-- remark: data normalized for anonymizaiton
+- remark: data normalized for anonymization
 
+<ins>Vestas V52 – Dundalk Institute of Technology Ireland</ins>
+- https://data.mendeley.com/datasets/tm988rs48k/2
+- info: https://www.sciencedirect.com/science/article/pii/S2352340923003463
+- single wind turbine (850 kW)
+- ~20 SCADA parameters (10min)
+- 14 years
+- Located in the Ireland, urban terrain (Onshore)
+- remark: gearbox changeout took place in the period from 04 October 2018 to 27 July 2019
+  
 <ins>Urban Small Wind Turbine São Paulo</ins>
 - https://zenodo.org/records/7348454
 - info: https://www.mdpi.com/2306-5729/8/3/52
