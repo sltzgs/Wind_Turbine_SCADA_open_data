@@ -3,7 +3,7 @@
 
 ## Table of open source wind turbine SCADA data sets:
 
-|ID| Dataset                                                                                                        |Loc       |Met-<br>mast  |#TRB   |#Var   |Logs   |Notes           |&Delta;t   |&sum;t        |Ref | Remarks/<br>License  |
+|ID| Dataset                                                                                                        |Loc       |Met-<br>mast  |#TRB   |#Var   |Logs   |Notes           |&Delta;t   |&sum;t        |Ref | <div style="width:290px">Remarks/License </div>  |
 |- |-                                                                                                               |-              |-       |-      |-      |-      |-                     |-          |-             | -  |-                 |
 |1 | [EDP Open Data](https://www.edp.com/en/innovation/open-data)                                          |ESP (on)       |x       | 5     |~80    | x     | x<sup>[1](#fn1)</sup>| 10min     | 2y |  - |  Need to register & log-in to the platform|
 |2 | [Winji Gearbox Challenge](https://www.wedowind.ch/blog/winji-register)                       |?              |?       | 5     |~20    | x     | x<sup>[2](#fn2)</sup>| 10min     | 3y |  - |  Need to register & no other application allowed without consent from WinJi AG | 
