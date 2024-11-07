@@ -3,14 +3,8 @@
 
 ## Table of open source wind turbine SCADA data sets:
 
-<style scoped>
-table {
-  font-size: 12px;
-}
-</style>
-
 |ID| Dataset                                                                                                        |Loc       |Met-<br>mast  |#TRB   |#Var   |Logs   |Notes           |&Delta;T   |&sum;T       |Ref | Remarks/License  |
-|- |-                                                                                                               |-              |-       |-      |-      |-      |-                     |-          |-             | -  |-                 |
+|--|----------------------------------------------------------------------------------------------------------------|-              |-       |-      |-      |-      |-                     |-          |-             | -  |-                 |
 |1 | [EDP Open Data](https://www.edp.com/en/innovation/open-data)                                          |ESP (on)       |x       | 5     |~80    | x     | x<sup>[1](#fn1)</sup>| 10min     | 2y |  - |  register & log-in to platform|
 |2 | [Winji Gearbox Challenge](https://www.wedowind.ch/blog/winji-register)                       |?              |?       | 5     |~20    | x     | x<sup>[2](#fn2)</sup>| 10min     | 3y |  - |  register & consent from WinJi | 
 |3 | [Kelmarsh Farm](https://zenodo.org/record/5841834#.YgpBQ_so-V7)                                      |UK (on)        |o       | 6     |~99     | x     | o                    | 10min<sup>[3](#fn3)</sup>     | 5y|  - | [farm info](https://www.thewindpower.net/windfarm_en_17507_kelmarsh.php)|
