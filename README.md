@@ -3,6 +3,12 @@
 
 ## Table of open source wind turbine SCADA data sets:
 
+<style scoped>
+table {
+  font-size: 12px;
+}
+</style>
+
 |ID| Dataset                                                                                                        |Loc       |Met-<br>mast  |#TRB   |#Var   |Logs   |Notes           |&Delta;T   |&sum;T       |Ref | Remarks/License  |
 |- |-                                                                                                               |-              |-       |-      |-      |-      |-                     |-          |-             | -  |-                 |
 |1 | [EDP Open Data](https://www.edp.com/en/innovation/open-data)                                          |ESP (on)       |x       | 5     |~80    | x     | x<sup>[1](#fn1)</sup>| 10min     | 2y |  - |  register & log-in to platform|
