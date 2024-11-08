@@ -61,6 +61,7 @@ Many of the above listed datasets are described and analysed in [[1]](#ref1).
 <div id="ref4">[4]</div>[Hansen, Kurt Schaldemose (2021). Scada data from Delabole wind farm. Technical University of Denmark. Dataset.] (https://doi.org/10.11583/DTU.14077004)
 
 <div id="ref5">[5]</div>[Simley, E., Fleming, P., Girard, N., Alloin, L., Godefroy, E., and Duc, T.: Results from a wake-steering experiment at a commercial wind plant: investigating the wind speed dependence of wake-steering performance, Wind Energ. Sci., 6, 1427–1453, https://doi.org/10.5194/wes-6-1427-2021, 2021.](https://wes.copernicus.org/articles/6/1427/2021/wes-6-1427-2021.html)
+
 ## How to contribute:
 We welcome contributions to expand the collection of open datasets in this repository. If you have an open dataset you'd like to add, please feel free to submit a new pull request.
 To contribute a new dataset:
