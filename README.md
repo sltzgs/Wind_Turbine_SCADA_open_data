@@ -4,36 +4,36 @@
 ## Table of open source wind turbine SCADA data sets:
 
 
-|ID| Dataset                                                                                                        |Loc       |Met-<br>mast  |Trb<br>#   |Var<br>#   |Logs<br>x/o  |Labels<br>x/o           |&Delta;T   |&sum;T       |Ref | Remarks/License  |
-|--|----------------------------------------------------------------------------------------------------------------|-              |-       |-      |-      |-      |-                     |-          |-             | -  |-                 |
-|1 | [EDP Open Data](https://www.edp.com/en/innovation/open-data)                                          |ESP (on)       |x       | 5     |~80    | x     | x<sup>[1](#fn1)</sup>| 10min     | 2y |  - |  register & log-in to platform|
-|2 | [Winji Gearbox Challenge](https://www.wedowind.ch/blog/winji-register)                       |?              |?       | 5     |~20    | x     | x<sup>[2](#fn2)</sup>| 10min     | 3y |  - |  register & consent from WinJi | 
-|3 | [Kelmarsh Farm](https://zenodo.org/record/5841834#.YgpBQ_so-V7)                                      |UK (on)        |o       | 6     |~99     | x     | o                    | 10min<sup>[3](#fn3)</sup>     | 5y|  - | [farm info](https://www.thewindpower.net/windfarm_en_17507_kelmarsh.php)|
-|4 | [Penmanshiel Farm](https://zenodo.org/record/5946808#.YgpAmvso-V5)                                   |UK (on)        |o       |14     |>150     | x     | o                   | 10min<sup>[3](#fn3)</sup>     | 5y|  - | [farm info](https://www.thewindpower.net/windfarm_en_23147_penmanshiel.php) |
-|5 | [Ørsted Anholt Offshore](https://orsted.com/en/our-business/offshore-wind/offshore-operational-data) |DEN (off)  |(x)<sup>[4](#fn4)</sup>       | 111  | ?     | ?     | ?                    | 10min     | 2y           |  - | application/NDA; [farm info](https://www.thewindpower.net/windfarm_en_10687_anholt.php) |
-|6 | [Ørsted Westermost Rough](https://orsted.com/en/our-business/offshore-wind/offshore-operational-data)|UK (off)       |(x)<sup>[4](#fn4)</sup>       | 35   | ?     | ?     | ?                    | 10min     | 2y           |  - | application/NDA; [farm info](https://www.thewindpower.net/windfarm_en_21826_westermost-rough.php) | 
-|7a| ["CAREtoCompare" Windfarm B](https://data.niaid.nih.gov/resources?id=zenodo_10958774)                              |GER (off)  |?       | 9    |  64| ?     | x                    | 10min     | 2y           |  - | normalized for anonymization |
-|7b| ["CAREtoCompare" Windfarm C](https://data.niaid.nih.gov/resources?id=zenodo_10958774)                              |GER (off)  |?       | 22   | 238| ?     | x                  | 10min     | 2y          |  - | normalized for anonymization |
-|8 | [Fuhrländer Farm](https://github.com/alecuba16/fuhrlander)                              |? (on)  |o       | 5   | 312| x     | o                  | 5min     | 3y          |  [[2]](#ref2) | Eclipse Public License v2.0 |
-|9a | [DSforWind Windfarm 1a](https://zenodo.org/records/5516552)                                          |? (on)        |x<sup>[6](#fn6)</sup>| 4     | 7     | o     | o      | 10min     | 1y           |  - | - |
-|9b | [DSforWind Windfarm1b](https://zenodo.org/records/5516552)                                         |? (off)       |x<sup>[6](#fn6)</sup>| 2     | 7     | o     | o      | 10min     | 1y           |  - | - | 
-|9c | [DSforWind Windfarm 2a](https://zenodo.org/records/5516554)                                          |? (on)        |x<sup>[6](#fn6)</sup>| 2     | 7     | o     | o      | 10min     | 1y           |  - | - | 
-|9d | [DSforWind Windfarm 2b](https://zenodo.org/records/5516554)                                         |? (off)       |x<sup>[6](#fn6)</sup>| 2     | 7     | o     | o      | 10min     | 1y           |  - | - | 
-|10 | [PCWG Data Sets](https://pcwg.org/)                                                |? (on)        |x       | 3     | 1     | o     | o                   | 10min         | 1y       |  - | - |
-|11 | [Norrekaer Windfarm](https://data.dtu.dk/articles/dataset/SCADA_data_from_Norre_m2_wind_farm/19076756) |DK (on)        |x       | 41     | 3     | o     | o                   | 10min         | 1.5y       |  [[3]](#ref3) | [farm info](https://gitlab.windenergy.dtu.dk/fair-data/winddata-revamp/winddata-documentation/-/blob/master/norre_m2.md) |
-|11 | [Delabole Windfarm](https://data.dtu.dk/articles/dataset/SCADA_data_from_Norre_m2_wind_farm/19076756) |UK (on)        |x       | 10     | 1     | o     | o                   | 10min         | 1y       |  [[4]](#ref4) | [farm info](https://gitlab.windenergy.dtu.dk/fair-data/winddata-revamp/winddata-documentation/-/blob/master/delabole.md) |
-|12| [Dundalk IoT](https://data.mendeley.com/datasets/tm988rs48k/2)        |IRE (on)   |o       | 1     | 20   | o     | x<sup>[7](#fn7)</sup>| 10min     | 14y          |  - | urban terrain |
-|13| [Kaggle Wind Turbine](https://www.kaggle.com/berkerisen/wind-turbine-scada-dataset)             |TUR (on)    |o       | 1     | 4     | o     | o                    | 10min     | 1y|  - | - | 
-|14| [Small São Paulo](https://zenodo.org/records/7348454)                                       |BRZ (on)|o       | 1     | ~40   | o     | o                        | 1min      | 5y|  - | small, urban turbine | 
-|15| [Björkö Wind Turbine](https://zenodo.org/records/8213270)                                       |SWE (on)|o       | 1     | 68   | o     | o                        | 1sec      | 1y|  - | small; [turbine info](https://www.chalmers.se/en/departments/e2/resources-and-collaboration/chalmers-wind-turbine/)| 
-|16| [IET-OST Turbine](https://zenodo.org/records/8192149)                                       |SUI (on)|o       | 1     | 15   | o     | o                        | 1sec      | 1.5y|  - | small; [turbine info](https://www.chalmers.se/en/departments/e2/resources-and-collaboration/chalmers-wind-turbine/)| 
-|17| [Pedra do Sal Wind Farm](https://zenodo.org/records/1475197)                                       |BRZ (on)|x       | 20     | ~40   | o     | o                        | 10min      | 1y |  - | [farm info](https://www.thewindpower.net/windfarm_en_15922_pedra-do-sal.php)| 
-|18| [Beberibe Wind Farm](https://zenodo.org/records/1475197)                                       |BRZ (on)|x       | 32     | ~40   | o     | o                        | 10min      | 1y |  - | [farm info](https://www.thewindpower.net/windfarm_en_7032_beberibe.php)| 
-|19| [SMARTEOLE Wind Farm](https://zenodo.org/records/7342466)                                       |FRA (on)|x       | 7     | ~40   | x     | o                        | 10min      | 4m |  [[5]](#ref5) | wake steering; [farm info](https://www.thewindpower.net/windfarm_de_3987_sole-du-moulin-vieux.php)| 
-|98| [Engie La Haute Borne](https://opendata-renewables.engie.com/)                                     |FR (on)        |o       | 4     |~80    | o     | o                    | 10min     | 8y| -  |  offline; [farm info](https://www.thewindpower.net/windfarm_en_3354_la-haute-borne-vaudeville-le-haut.php) |
-|99| [Levenmouth Turbine](https://pod.ore.catapult.org.uk/data-collection/ldt-turbine-scada-10min)    |UK (near)  |x       | 1     | >500  | x     | o                        | 10min/1sec| 3y|  - | not for free (~2000 £) |
+|ID| Dataset                                                                                                        |Loc        |Met-<br>mast  |Trb<br>#   |Var<br>#   |Logs<br>[x]/[ ]  |Labels<br>[x]/[ ]           |&Delta;T   |&sum;T       |Ref | Remarks/License  |
+|--|----------------------------------------------------------------------------------------------------------------|-          |-       |-      |-      |-      |-                     |-          |-             | -  |-                 |
+|1 | [EDP Open Data](https://www.edp.com/en/innovation/open-data/data)                                              |ESP (on)   |[x]       | 5     |~80    | [x]     | [x]<sup>[1](#fn1)</sup>| 10min     | 2y |  - |  T09 removed from dataset |
+|2 | [Winji Gearbox Challenge](https://www.wedowind.ch/blog/winji-register)                                         |?          |?       | 5     |~20    | [x]     | [x]<sup>[2](#fn2)</sup>| 10min     | 3y |  - |  register & consent from WinJi | 
+|3 | [Kelmarsh Farm](https://zenodo.org/record/5841834#.YgpBQ_so-V7)                                                |UK (on)    |[ ]       | 6     |~99     | [x]     | [ ]                    | 10min<sup>[3](#fn3)</sup>     | 5y|  - | [farm info](https://www.thewindpower.net/windfarm_en_17507_kelmarsh.php)|
+|4 | [Penmanshiel Farm](https://zenodo.org/record/5946808#.YgpAmvso-V5)                                             |UK (on)    |[ ]       |14     |>150     | [x]     | [ ]                   | 10min<sup>[3](#fn3)</sup>     | 5y|  - | [farm info](https://www.thewindpower.net/windfarm_en_23147_penmanshiel.php) |
+|5 | [Ørsted Anholt Offshore](https://orsted.com/en/our-business/offshore-wind/offshore-operational-data)           |DEN (off)  |([x])<sup>[4](#fn4)</sup>       | 111  | ?     | ?     | ?                    | 10min     | 2y           |  - | application/NDA; [farm info](https://www.thewindpower.net/windfarm_en_10687_anholt.php) |
+|6 | [Ørsted Westermost Rough](https://orsted.com/en/our-business/offshore-wind/offshore-operational-data)          |UK (off)   |([x])<sup>[4](#fn4)</sup>       | 35   | ?     | ?     | ?                    | 10min     | 2y           |  - | application/NDA; [farm info](https://www.thewindpower.net/windfarm_en_21826_westermost-rough.php) | 
+|7a| ["CAREtoCompare" Windfarm B](https://data.niaid.nih.gov/resources?id=zenodo_10958774)                          |GER (off)  |?       | 9    |  64| ?     | [x]                    | 10min     | 2y           |  - | normalized for anonymization |
+|7b| ["CAREtoCompare" Windfarm C](https://data.niaid.nih.gov/resources?id=zenodo_10958774)                          |GER (off)  |?       | 22   | 238| ?     | [x]                  | 10min     | 2y          |  - | normalized for anonymization |
+|8 | [Fuhrländer Farm](https://github.com/alecuba16/fuhrlander)                                                     |? (on)     |[ ]       | 5   | 312| [x]     | [ ]                  | 5min     | 3y          |  [[2]](#ref2) | Eclipse Public License v2.0 |
+|9a | [DSforWind Windfarm 1a](https://zenodo.org/records/5516552)                                                   |? (on)     |[x]<sup>[6](#fn6)</sup>| 4     | 7     | [ ]     | [ ]      | 10min     | 1y           |  - | - |
+|9b | [DSforWind Windfarm1b](https://zenodo.org/records/5516552)                                                    |? (off)    |[x]<sup>[6](#fn6)</sup>| 2     | 7     | [ ]     | [ ]      | 10min     | 1y           |  - | - | 
+|9c | [DSforWind Windfarm 2a](https://zenodo.org/records/5516554)                                                   |? (on)     |[x]<sup>[6](#fn6)</sup>| 2     | 7     | [ ]     | [ ]      | 10min     | 1y           |  - | - | 
+|9d | [DSforWind Windfarm 2b](https://zenodo.org/records/5516554)                                                   |? (off)    |[x]<sup>[6](#fn6)</sup>| 2     | 7     | [ ]     | [ ]      | 10min     | 1y           |  - | - | 
+|10 | [PCWG Data Sets](https://pcwg.org/)                                                                           |? (on)     |[x]       | 3     | 1     | [ ]     | [ ]                   | 10min         | 1y       |  - | - |
+|11 | [Norrekaer Windfarm](https://data.dtu.dk/articles/dataset/SCADA_data_from_Norre_m2_wind_farm/19076756)        |DK (on)    |[x]       | 41     | 3     | [ ]     | [ ]                   | 10min         | 1.5y       |  [[3]](#ref3) | [farm info](https://gitlab.windenergy.dtu.dk/fair-data/winddata-revamp/winddata-documentation/-/blob/master/norre_m2.md) |
+|11 | [Delabole Windfarm](https://data.dtu.dk/articles/dataset/SCADA_data_from_Norre_m2_wind_farm/19076756)         |UK (on)    |[x]       | 10     | 1     | [ ]     | [ ]                   | 10min         | 1y       |  [[4]](#ref4) | [farm info](https://gitlab.windenergy.dtu.dk/fair-data/winddata-revamp/winddata-documentation/-/blob/master/delabole.md) |
+|12| [Dundalk IoT](https://data.mendeley.com/datasets/tm988rs48k/2)                                                 |IRE (on)   |[ ]       | 1     | 20   | [ ]     | [x]<sup>[7](#fn7)</sup>| 10min     | 14y          |  - | urban terrain |
+|13| [Kaggle Wind Turbine](https://www.kaggle.com/berkerisen/wind-turbine-scada-dataset)                            |TUR (on)   |[ ]       | 1     | 4     | [ ]     | [ ]                    | 10min     | 1y|  - | - | 
+|14| [Small São Paulo](https://zenodo.org/records/7348454)                                                          |BRZ (on)   |[ ]       | 1     | ~40   | [ ]     | [ ]                        | 1min      | 5y|  - | small, urban turbine | 
+|15| [Björkö Wind Turbine](https://zenodo.org/records/8213270)                                                      |SWE (on)   |[ ]       | 1     | 68   | [ ]     | [ ]                        | 1sec      | 1y|  - | small; [turbine info](https://www.chalmers.se/en/departments/e2/resources-and-collaboration/chalmers-wind-turbine/)| 
+|16| [IET-OST Turbine](https://zenodo.org/records/8192149)                                                          |SUI (on)   |[ ]       | 1     | 15   | [ ]     | [ ]                        | 1sec      | 1.5y|  - | small; [turbine info](https://www.chalmers.se/en/departments/e2/resources-and-collaboration/chalmers-wind-turbine/)| 
+|17| [Pedra do Sal Wind Farm](https://zenodo.org/records/1475197)                                                   |BRZ (on)   |[x]       | 20     | ~40   | [ ]     | [ ]                        | 10min      | 1y |  - | [farm info](https://www.thewindpower.net/windfarm_en_15922_pedra-do-sal.php)| 
+|18| [Beberibe Wind Farm](https://zenodo.org/records/1475197)                                                       |BRZ (on)   |[x]       | 32     | ~40   | [ ]     | [ ]                        | 10min      | 1y |  - | [farm info](https://www.thewindpower.net/windfarm_en_7032_beberibe.php)| 
+|19| [SMARTEOLE Wind Farm](https://zenodo.org/records/7342466)                                                      |FRA (on)   |[x]       | 7     | ~40   | [x]     | [ ]                        | 1min      | 4m |  [[5]](#ref5) | wake steering; [farm info](https://www.thewindpower.net/windfarm_de_3987_sole-du-moulin-vieux.php)| 
+|98| [Engie La Haute Borne](https://opendata-renewables.engie.com/)                                                 |FR (on)    |[ ]       | 4     |~80    | [ ]     | [ ]                    | 10min     | 8y| -  |  offline; [farm info](https://www.thewindpower.net/windfarm_en_3354_la-haute-borne-vaudeville-le-haut.php) |
+|99| [Levenmouth Turbine](https://pod.ore.catapult.org.uk/data-collection/ldt-turbine-scada-10min)                  |UK (near)  |[x]       | 1     | >500  | [x]     | [ ]                        | 10min/1sec| 3y|  - | not for free (~2000 £) |
 
-o = no / x = yes
+[ ] = no / [x] = yes
 
 <div id="fn1"><sup>1</sup> Manual annotations of major failures or component replacements </div>
 <div id="fn2"><sup>2</sup> SCADA error log indicator</div>
@@ -48,19 +48,6 @@ o = no / x = yes
 
 ## Comunity Annotations:
 --- to be added ---
-
-## References:
-Many of the above listed datasets are described and analysed in [[1]](#ref1).
-
-<div id="ref1">[1]</div>[Effenberger, Nina, and Nicole Ludwig. "A collection and categorization of open‐source wind and wind power datasets." Wind Energy 25.10 (2022): 1659-1683.](https://onlinelibrary.wiley.com/doi/full/10.1002/we.2766)
-
-<div id="ref2">[2]</div>[Marti-Puig, P., Blanco-M., A., Cusidó, J. et al. Wind turbine database for intelligent operation and maintenance strategies. Sci Data 11, 255 (2024).](https://www.nature.com/articles/s41597-024-03067-9)
-
-<div id="ref3">[3]</div>[Hansen, Kurt Schaldemose; Vasiljevic, Nikola; Sørensen, Steen Arne (2022). SCADA data from Norre_m2 wind farm. Technical University of Denmark. Dataset.] (https://doi.org/10.11583/DTU.19076756.v1)
-
-<div id="ref4">[4]</div>[Hansen, Kurt Schaldemose (2021). Scada data from Delabole wind farm. Technical University of Denmark. Dataset.] (https://doi.org/10.11583/DTU.14077004)
-
-<div id="ref5">[5]</div>[Simley, E., Fleming, P., Girard, N., Alloin, L., Godefroy, E., and Duc, T.: Results from a wake-steering experiment at a commercial wind plant: investigating the wind speed dependence of wake-steering performance, Wind Energ. Sci., 6, 1427–1453, https://doi.org/10.5194/wes-6-1427-2021, 2021.](https://wes.copernicus.org/articles/6/1427/2021/wes-6-1427-2021.html)
 
 ## How to contribute:
 We welcome contributions to expand the collection of open datasets in this repository. If you have an open dataset you'd like to add, please feel free to submit a new pull request.
@@ -79,3 +66,16 @@ To contribute a new dataset:
 5. Submit a pull request, referencing the issue you opened earlier. The maintainers will review your contribution and merge it if it meets the repository's guidelines.
 
 We appreciate all contributions that help expand the collection of open datasets available in this repository. If you have any questions or need assistance, please don't hesitate to open a new issue.
+
+## References:
+Many of the above listed datasets are described and analysed in [[1]](#ref1).
+
+<div id="ref1">[1]</div>[Effenberger, Nina, and Nicole Ludwig. "A collection and categorization of open‐source wind and wind power datasets." Wind Energy 25.10 (2022): 1659-1683.](https://onlinelibrary.wiley.com/doi/full/10.1002/we.2766)
+
+<div id="ref2">[2]</div>[Marti-Puig, P., Blanco-M., A., Cusidó, J. et al. Wind turbine database for intelligent operation and maintenance strategies. Sci Data 11, 255 (2024).](https://www.nature.com/articles/s41597-024-03067-9)
+
+<div id="ref3">[3]</div>[Hansen, Kurt Schaldemose; Vasiljevic, Nikola; Sørensen, Steen Arne (2022). SCADA data from Norre_m2 wind farm. Technical University of Denmark. Dataset.] (https://doi.org/10.11583/DTU.19076756.v1)
+
+<div id="ref4">[4]</div>[Hansen, Kurt Schaldemose (2021). Scada data from Delabole wind farm. Technical University of Denmark. Dataset.] (https://doi.org/10.11583/DTU.14077004)
+
+<div id="ref5">[5]</div>[Simley, E., Fleming, P., Girard, N., Alloin, L., Godefroy, E., and Duc, T.: Results from a wake-steering experiment at a commercial wind plant: investigating the wind speed dependence of wake-steering performance, Wind Energ. Sci., 6, 1427–1453, 2021.](https://doi.org/10.5194/wes-6-1427-2021)
