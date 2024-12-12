@@ -74,7 +74,7 @@ We want to enable researchers to build upon the findings of others who were prev
 
 The respective notebooks automatically load, read and display the respective malfuncitons. See e.g. this example from T01 of the edp-dataset:
 
-![image](./images/commmunity_annotations_example.png)
+![image](./images/community_annotations_example.png)
 
 ## How to contribute:
 We welcome contributions to expand the collection of open datasets in this repository as well as community annotations. If you have an open dataset you'd like to add, please feel free to submit a new pull request. We appreciate all contributions that help expand the collection of open datasets available in this repository. If you have any questions or need assistance, please don't hesitate to open a new issue.
