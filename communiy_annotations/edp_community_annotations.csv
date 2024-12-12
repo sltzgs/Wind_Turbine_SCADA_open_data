@@ -1,0 +1,3 @@
+annot_id,turbine_id,component,signal,time_start,time_stop,related_log_message,remarks
+1,T01,ambient,Amb_WindSpeed_Std,-,-,Error on all wind sensors,Amb_WindSpeed_Std with extremely high values
+2,T01,generator,Prod_LatestAvg_ReactPwrGen0,2017-12-12T20:20:00+00:00,2017-12-31T23:50:00+00:00,Generator 0 out,Signal with significantly changed behaviour after start date

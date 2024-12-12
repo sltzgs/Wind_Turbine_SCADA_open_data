@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!powercurve.csv
+
+# ...even if they are in subdirectories
+!*/
